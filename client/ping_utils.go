@@ -22,6 +22,7 @@ func (s weightedICMPSelector) Select(ctx context.Context, servicePath, serviceMe
 	if w == nil {
 		return ""
 	}
+	//TODO test for git
 	return w.Server
 }
 
